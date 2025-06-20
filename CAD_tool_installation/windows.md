@@ -23,7 +23,16 @@ GUI-based tool setup:
 
 2) Download Docker: https://docs.docker.com/desktop/setup/install/windows-install/
 
-a) Enable *Use WSL 2 instead of Hyper-V and **<ins>do not enable</ins>** "Allow Windows Containers".
+Enable *Use WSL 2 instead of Hyper-V and **<ins>do not enable</ins>** "Allow Windows Containers".
 <p align="center">
    <img src="./img/00_install_options.png" width="600" />
 </p>  
+
+3) Go to the local folder where the Docker image was cloned. Then, enter the  **IIC-OSIC-TOOLS** folder and run the following command:
+  ```
+  .\start_x.bat
+  ```
+There are two other scripts that can be run based on your preferences, as indicated in:
+
+https://github.com/sscs-ose/sscs-chipathon-2025/blob/main/docs/install_instructions/Windows/install_docker_desktop.md
+

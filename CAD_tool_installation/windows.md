@@ -9,7 +9,19 @@ First, a block diagram with the main installation steps:
 
 GUI-based tool setup:
 
-1) Download Docker: https://docs.docker.com/desktop/setup/install/windows-install/
+1) Assuming that you have installed on your Windows machine **<ins>Windows Powershell</ins>**:
+
+   a) Create a folder where you will pull Harald Pretl's Docker image.
+
+   b) Clone Harald Pretl's Docker image from: https://github.com/iic-jku/iic-osic-tools with the following command:
+  ```
+  git clone https://github.com/iic-jku/IIC-OSIC-TOOLS.git
+  ```
+<p align="center">
+   <img src="./img/cloned_repo.png" width="600" />
+</p>  
+
+2) Download Docker: https://docs.docker.com/desktop/setup/install/windows-install/
 
 a) Enable *Use WSL 2 instead of Hyper-V and **<ins>do not enable</ins>** "Allow Windows Containers".
 <p align="center">

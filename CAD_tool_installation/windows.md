@@ -52,3 +52,8 @@ Run again the command:
   ```
   .\start_x.bat
   ```
+
+Now, the pulled image should be correct as indicated below:
+<p align="center">
+   <img src="./img/tag_chipathon.png" width="600" />
+</p>  

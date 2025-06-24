@@ -4,7 +4,7 @@ The Docker image used in this version is a pre-packaged Docker container provide
 
 First, a block diagram with the main installation steps:
 <p align="center">
-   <img src="./img/Installation_flow.png" width="600" />
+   <img src="./img/Installation_flow_v2.png" width="600" />
 </p>  
 
 GUI-based tool setup:

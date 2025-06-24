@@ -1,6 +1,6 @@
 # Installation Steps for Windows
 
-The Docker image used in this 2025 Chipathon is pre-packaged Docker container provided by Harald Pretl's lab **IIC-OSIC-TOOLS**: https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/resources/IIC-OSIC-TOOLS
+The Docker image used in this 2025 Chipathon is pre-packaged Docker container provided for 2025 Chipathon provided by Harald Pretl's lab **IIC-OSIC-TOOLS**: https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/resources/IIC-OSIC-TOOLS
 
 First, a block diagram with the main installation steps:
 <p align="center">
@@ -13,9 +13,9 @@ GUI-based tool setup:
 
    a) Create a folder where you will pull Harald Pretl's Docker image.
 
-   b) Clone Harald Pretl's Docker image from: https://github.com/iic-jku/iic-osic-tools with the following command:
+   b) Clone 2025 Chipathon Docker image from: https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/resources/IIC-OSIC-TOOLS with the following command:
   ```
-  git clone https://github.com/iic-jku/IIC-OSIC-TOOLS.git
+  git clone https://github.com/sscs-ose/sscs-chipathon-2025.git
   ```
 <p align="center">
    <img src="./img/cloned_repo.png" width="600" />

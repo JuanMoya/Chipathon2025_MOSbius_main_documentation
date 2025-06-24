@@ -40,24 +40,9 @@ There are two other scripts that can be run based on your preferences, as indica
 
 https://github.com/sscs-ose/sscs-chipathon-2025/blob/main/docs/install_instructions/Windows/install_docker_desktop.md
 
-After the command finalizes pulling the image, it is possible that the tagged image downloaded is **latest** instead of **chipathon**, as observed in the figure below.
+After the command finalizes pulling the image, check that the Docker image downloaded is **:chipathon** as indicated in the figure below.
+
 <p align="center">
-   <img src="./img/tag_latest.png" width="600" />
+   <img src="./img/downloaded_image.png" width="600" />
 </p>  
 
-This is because in the start_x.bat file, the tag image is **latest** as indicated below:
-<p align="center">
-   <img src="./img/bat_latest.png" width="600" />
-</p>  
-
-Modify the line and include **chipathon** instead of **latest**. Go to the Docker application and erase both container and image associated with **IIC-OSIC-TOOLS**.
-
-Run again the command:
-  ```
-  .\start_x.bat
-  ```
-
-Now, the pulled image should be correct as indicated below:
-<p align="center">
-   <img src="./img/tag_chipathon.png" width="600" />
-</p>  

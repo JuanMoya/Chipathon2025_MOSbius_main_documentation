@@ -18,7 +18,7 @@ GUI-based tool setup:
   git clone https://github.com/sscs-ose/sscs-chipathon-2025.git
   ```
 <p align="center">
-   <img src="./img/cloned_repo.png" width="600" />
+   <img src="./img/cloned_repo_2.png" width="600" />
 </p>  
 
 2) Download Docker: https://docs.docker.com/desktop/setup/install/windows-install/

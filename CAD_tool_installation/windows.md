@@ -1,6 +1,6 @@
 # Installation Steps for Windows
 
-The Docker image used in this 2025 Chipathon is pre-packaged Docker container provided for 2025 Chipathon provided by Harald Pretl's lab **IIC-OSIC-TOOLS**: https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/resources/IIC-OSIC-TOOLS
+The Docker image used in this version is a pre-packaged Docker container provided by Harald Pretl's lab for 2025 Chipathon  **IIC-OSIC-TOOLS**: https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/resources/IIC-OSIC-TOOLS
 
 First, a block diagram with the main installation steps:
 <p align="center">

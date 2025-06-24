@@ -28,17 +28,17 @@ Enable *Use WSL 2 instead of Hyper-V and **<ins>do not enable</ins>** "Allow Win
    <img src="./img/00_install_options.png" width="600" />
 </p>  
 
-3) Go to the local folder where the Docker image was cloned. Then, enter the  **\sscs-chipathon-2025\resources\IIC-OSIC-TOOLS** folder and run the following command:
-  ```
-  .\start_chipathon_x.bat
-  ```
-The figure below, indicates the command run in the IIC-OSIC-TOOL folder:
+3) Go to the local folder where the Docker image was cloned. Then, enter the  **\sscs-chipathon-2025\resources\IIC-OSIC-TOOLS** as indicated in the figure below.
+
 <p align="center">
    <img src="./img/script_folder.png" width="600" />
 </p>  
-There are two other scripts that can be run based on your preferences, as indicated in:
 
-https://github.com/sscs-ose/sscs-chipathon-2025/blob/main/docs/install_instructions/Windows/install_docker_desktop.md
+  
+6) Then, run the following command:
+  ```
+  .\start_chipathon_x.bat
+  ```
 
 After the command finalizes pulling the image, check that the Docker image downloaded is **:chipathon** as indicated in the figure below.
 
@@ -46,3 +46,6 @@ After the command finalizes pulling the image, check that the Docker image downl
    <img src="./img/downloaded_image.png" width="600" />
 </p>  
 
+There are two other scripts that can be run based on your preferences, as indicated in:
+
+https://github.com/sscs-ose/sscs-chipathon-2025/blob/main/docs/install_instructions/Windows/install_docker_desktop.md
